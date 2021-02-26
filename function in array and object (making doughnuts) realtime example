@@ -1,0 +1,34 @@
+var makeDoughnut = {
+    size : "mini",
+    shape : "round",
+    flavour : "any",
+
+    recipe :{
+            step1 : [
+                "Flour",
+                "add milk",
+                "add sugar",
+                "add eggs",
+                "kneed the dough"
+            ],
+
+            step2 : [
+                "Cut in doughnut shape.",
+                "Deep fry for 10 min."
+            ],
+
+            step3 : [{
+                frosting : [
+                        "vanilla",
+                        "chocolate",
+                        "lemon",
+                        "strawberry"
+                ]
+            }],
+
+            step4 : function() {
+                return "Your mini doughnuts are ready to be served!";                
+            }
+    }
+}
+console.log(makeDoughnut);
