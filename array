@@ -1,0 +1,12 @@
+var strawberryCake = [
+    sponge = {
+        eggs : 2,
+        milk : 1,
+        sugar : 1.5,
+        flour : 2
+    },
+    frosting = {
+        ingredient1 : "cream",
+        ingredient2 : "sugar"
+    }
+];
